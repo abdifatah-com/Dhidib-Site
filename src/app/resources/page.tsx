@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import dynamic from "next/dynamic";
 
 // Dynamic import for BlogModal to reduce initial bundle size
@@ -21,7 +21,8 @@ import {
   Target,
   Globe,
   Heart,
-  Star
+  Star,
+  Phone
 } from "lucide-react";
 
 export default function Resources() {

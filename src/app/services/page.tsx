@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Our Services - Professional Support Services | Dhidib Foundation",
   description: "Discover Dhidib Foundation's professional support services including personal care, community participation, and support coordination to help individuals thrive.",
 };
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { 
   User,
   Users2,
@@ -202,7 +202,7 @@ export default function Services() {
           </div>
           
           <div className="space-y-16">
-            {services.map((service, index) => {
+            {services.map((service) => {
               const Icon = service.icon;
               return (
                 <div key={service.id} id={service.id} className="scroll-mt-20">
@@ -243,7 +243,7 @@ export default function Services() {
                           </div>
                           
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-4">What's Included:</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-4">What&apos;s Included:</h4>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                               {service.features.map((feature, featureIndex) => (
                                 <div key={featureIndex} className="flex items-start space-x-3">

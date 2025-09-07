@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Our Programs - Youth Development & Community Building | Dhidib Foundation",
   description: "Explore Dhidib Foundation's comprehensive programs including Knowledge Sessions, Skill Exchanges, and Community Projects designed to empower youth and strengthen communities.",
 };
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { 
   GraduationCap,
   Lightbulb,

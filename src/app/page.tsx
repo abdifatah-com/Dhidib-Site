@@ -468,7 +468,7 @@ export default function HomePage() {
                   
                   {/* Quote */}
                     <blockquote className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
-                    "{testimonial.content}"
+                    &ldquo;{testimonial.content}&rdquo;
                   </blockquote>
                   
                   {/* Quote Icon */}
