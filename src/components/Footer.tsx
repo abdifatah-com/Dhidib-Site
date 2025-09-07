@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { 
   Facebook, 
@@ -46,9 +47,11 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 flex items-center justify-center">
-                <img 
-                  src="/dhl.Jpg" 
+                <Image 
+                  src="/dhl.jpg" 
                   alt="Dhidib Foundation Logo" 
+                  width={48}
+                  height={48}
                   className="w-full h-full object-contain"
                 />
               </div>

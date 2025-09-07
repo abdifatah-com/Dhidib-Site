@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import dynamic from "next/dynamic";
@@ -211,9 +212,11 @@ export default function HomePage() {
                     {/* Hero Image */}
                     <div className="relative">
                       <div className="w-40 h-40 bg-white rounded-full flex items-center justify-center mx-auto shadow-xl overflow-hidden">
-                        <img 
+                        <Image 
                           src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" 
                           alt="Diverse group of young people working together"
+                          width={160}
+                          height={160}
                           className="w-full h-full object-cover rounded-full"
                         />
                       </div>
@@ -308,9 +311,11 @@ export default function HomePage() {
                     {/* Mission Image */}
                     <div className="relative">
                       <div className="w-36 h-36 bg-white rounded-full flex items-center justify-center mx-auto shadow-xl overflow-hidden">
-                        <img 
+                        <Image 
                           src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" 
                           alt="Young people working together on community project"
+                          width={144}
+                          height={144}
                           className="w-full h-full object-cover rounded-full"
                         />
                       </div>

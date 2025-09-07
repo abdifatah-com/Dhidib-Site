@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import type { Metadata } from "next";
 
@@ -296,9 +297,11 @@ export default function About() {
                     {/* Avatar */}
                     <div className="relative z-10">
                       <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 overflow-hidden">
-                        <img 
+                        <Image 
                           src={member.image} 
                           alt={`${member.name} - ${member.role}`}
+                          width={96}
+                          height={96}
                           className="w-full h-full object-cover rounded-full"
                         />
                       </div>

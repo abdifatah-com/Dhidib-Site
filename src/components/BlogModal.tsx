@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
@@ -25,7 +26,7 @@ interface BlogModalProps {
     category: string;
     readTime: string;
     date: string;
-    icon: unknown;
+    icon: React.ComponentType<{ className?: string }>;
     content: string;
     image: string;
   } | null;
@@ -48,7 +49,7 @@ export default function BlogModal({ isOpen, onClose, blog }: BlogModalProps) {
 
   if (!isOpen || !blog) return null;
 
-  const Icon = blog.icon;
+  const BlogIcon = blog.icon;
 
   const handleShare = () => {
     if (navigator.share) {
@@ -77,7 +78,7 @@ export default function BlogModal({ isOpen, onClose, blog }: BlogModalProps) {
         <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-              <Icon className="h-5 w-5 text-primary" />
+              <BlogIcon className="h-5 w-5 text-primary" />
             </div>
             <div>
               <span className="text-sm font-medium text-primary bg-primary/10 px-2 py-1 rounded">
@@ -125,9 +126,11 @@ export default function BlogModal({ isOpen, onClose, blog }: BlogModalProps) {
 
               {/* Blog Image */}
               <div className="w-full h-64 md:h-80 rounded-xl overflow-hidden shadow-lg">
-                <img 
+                <Image 
                   src={blog.image} 
                   alt={blog.title}
+                  width={800}
+                  height={320}
                   className="w-full h-full object-cover"
                 />
               </div>

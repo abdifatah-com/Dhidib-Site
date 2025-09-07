@@ -25,11 +25,23 @@ import {
   Phone
 } from "lucide-react";
 
+interface Blog {
+  title: string;
+  description: string;
+  icon: React.ComponentType<{ className?: string }>;
+  type: string;
+  readTime: string;
+  category: string;
+  date: string;
+  image: string;
+  content: string;
+}
+
 export default function Resources() {
-  const [selectedBlog, setSelectedBlog] = useState(null);
+  const [selectedBlog, setSelectedBlog] = useState<Blog | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleBlogClick = (blog: unknown) => {
+  const handleBlogClick = (blog: Blog) => {
     setSelectedBlog(blog);
     setIsModalOpen(true);
   };

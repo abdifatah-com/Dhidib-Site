@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
@@ -26,9 +27,11 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-3 group">
               <div className="w-12 h-12 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <img 
-                  src="/dhl.Jpg" 
+                <Image 
+                  src="/dhl.jpg" 
                   alt="Dhidib Foundation Logo" 
+                  width={48}
+                  height={48}
                   className="w-full h-full object-contain"
                 />
               </div>

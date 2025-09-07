@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import type { Metadata } from "next";
 
@@ -210,9 +211,11 @@ export default function Services() {
                     <CardContent className="p-0">
                       {/* Service Image Header */}
                       <div className="relative h-48 bg-gradient-to-r from-blue-50 to-green-50 overflow-hidden">
-                        <img 
+                        <Image 
                           src={service.image} 
                           alt={`${service.title} service`}
+                          width={400}
+                          height={192}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
