@@ -51,8 +51,8 @@ A modern, professional, and fully responsive website for Dhidib Foundation, a yo
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd dhidib-foundation-website
+git clone https://github.com/abdifatah-com/Dhidib-Site.git
+cd Dhidib-Site
 ```
 
 2. Install dependencies:
