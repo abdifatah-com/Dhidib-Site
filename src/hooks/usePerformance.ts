@@ -39,7 +39,7 @@ export function usePerformance() {
 }
 
 // Web Vitals monitoring
-export function reportWebVitals(metric: any) {
+export function reportWebVitals(metric: unknown) {
   if (process.env.NODE_ENV === 'development') {
     console.log('Web Vital:', metric);
   }

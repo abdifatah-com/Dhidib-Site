@@ -76,7 +76,7 @@ export default function NotFound() {
                 Page Not Found
               </h1>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-                Oops! The page you're looking for doesn't exist. But don't worry - there are plenty of ways to explore our mission and get involved.
+                Oops! The page you&apos;re looking for doesn&apos;t exist. But don&apos;t worry - there are plenty of ways to explore our mission and get involved.
               </p>
             </div>
 
@@ -106,7 +106,7 @@ export default function NotFound() {
               Explore Our Website
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Here are some popular pages to help you find what you're looking for.
+              Here are some popular pages to help you find what you&apos;re looking for.
             </p>
           </div>
           
@@ -147,8 +147,8 @@ export default function NotFound() {
               Need Help Finding Something?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              If you can't find what you're looking for, our team is here to help. 
-              Contact us and we'll point you in the right direction.
+              If you can&apos;t find what you&apos;re looking for, our team is here to help. 
+              Contact us and we&apos;ll point you in the right direction.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -174,7 +174,7 @@ export default function NotFound() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900">
-              While You're Here...
+              While You&apos;re Here...
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Did you know? Here are some interesting facts about Dhidib Foundation.
@@ -217,7 +217,7 @@ export default function NotFound() {
               Ready to Make a Difference?
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Even though this page wasn't found, you can still join our mission to empower youth and build stronger communities.
+              Even though this page wasn&apos;t found, you can still join our mission to empower youth and build stronger communities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-6">

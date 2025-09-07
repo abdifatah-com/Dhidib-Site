@@ -14,18 +14,10 @@ const CommunityPopup = dynamic(() => import("@/components/CommunityPopup"), {
 import { 
   Heart, 
   Users, 
-  Shield, 
-  Clock, 
   Star, 
   ArrowRight,
   CheckCircle,
-  User,
-  Home,
-  Users2,
-  ClipboardList,
-  Stethoscope,
   MessageCircle,
-  Phone,
   Lightbulb,
   HandHeart,
   BookOpen,
@@ -282,7 +274,7 @@ export default function HomePage() {
                   <CheckCircle className="h-6 w-6 text-green-500 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Youth-Centered Approach</h3>
-                    <p className="text-gray-600">Every program is designed with young people's needs and aspirations at the center.</p>
+                    <p className="text-gray-600">Every program is designed with young people&apos;s needs and aspirations at the center.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -408,7 +400,7 @@ export default function HomePage() {
               Why Dhidib Foundation?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're committed to creating meaningful impact through proven programs, inclusive communities, and innovative approaches.
+                We&apos;re committed to creating meaningful impact through proven programs, inclusive communities, and innovative approaches.
             </p>
           </div>
           
@@ -516,7 +508,7 @@ export default function HomePage() {
               Be Part of the Change
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Join our community of changemakers. Whether you're a young person looking to grow, a volunteer wanting to make a difference, 
+              Join our community of changemakers. Whether you&apos;re a young person looking to grow, a volunteer wanting to make a difference, 
               or a partner ready to collaborate, we welcome you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

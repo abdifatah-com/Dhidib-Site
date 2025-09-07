@@ -149,7 +149,7 @@ export default function GetInvolvedPage() {
               Get <span className="text-primary">Involved</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Join our community of changemakers. Whether you're looking to volunteer, partner with us, 
+              Join our community of changemakers. Whether you&apos;re looking to volunteer, partner with us, 
               or support our mission, there are many ways to make a difference.
             </p>
           </div>
@@ -522,7 +522,7 @@ export default function GetInvolvedPage() {
               Ready to Make a Difference?
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Whether you want to volunteer, donate, or partner with us, we're here to help you get started. 
+              Whether you want to volunteer, donate, or partner with us, we&apos;re here to help you get started. 
               Contact us today to learn more about how you can be part of our mission.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

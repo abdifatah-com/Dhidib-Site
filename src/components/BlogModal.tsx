@@ -25,7 +25,7 @@ interface BlogModalProps {
     category: string;
     readTime: string;
     date: string;
-    icon: any;
+    icon: unknown;
     content: string;
     image: string;
   } | null;

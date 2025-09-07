@@ -18,11 +18,8 @@ import {
   Clock,
   Send,
   CheckCircle,
-  User,
-  MessageSquare,
   Users,
-  Heart,
-  Globe
+  Heart
 } from "lucide-react";
 
 export default function Contact() {
@@ -100,7 +97,7 @@ export default function Contact() {
                 <CardHeader>
                   <CardTitle className="text-2xl font-heading">Send us a Message</CardTitle>
                   <CardDescription>
-                    Fill out the form below and we'll get back to you within 24 hours.
+                    Fill out the form below and we&apos;ll get back to you within 24 hours.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -195,7 +192,7 @@ export default function Contact() {
               <div>
                 <h2 className="text-2xl sm:text-3xl font-heading font-bold text-gray-900 mb-6">Contact Information</h2>
                 <p className="text-base sm:text-lg text-gray-600 mb-8">
-                  We're here to help you get involved and make a difference. Reach out to us through any of the channels below.
+                  We&apos;re here to help you get involved and make a difference. Reach out to us through any of the channels below.
                 </p>
               </div>
 
@@ -396,7 +393,7 @@ export default function Contact() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  We'd love to help you bring our programs to your community! Contact us to discuss partnership opportunities and how we can work together to serve youth in your area.
+                  We&apos;d love to help you bring our programs to your community! Contact us to discuss partnership opportunities and how we can work together to serve youth in your area.
                 </p>
               </CardContent>
             </Card>
@@ -413,7 +410,7 @@ export default function Contact() {
             </h2>
             <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed px-4">
               Join our community of changemakers. Whether you want to participate in programs, volunteer, 
-              or support our mission, we're here to help you get started.
+                or support our mission, we&apos;re here to help you get started.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-6">

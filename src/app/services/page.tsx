@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Our Services - Professional Support Services | Dhidib Foundation",
   description: "Discover Dhidib Foundation's professional support services including personal care, community participation, and support coordination to help individuals thrive.",
 };
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { 
   User,
   Users2,
@@ -306,7 +306,7 @@ export default function Services() {
               Why Choose Our Services?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're committed to providing the highest quality disability support services with a focus on your wellbeing and independence.
+                We&apos;re committed to providing the highest quality disability support services with a focus on your wellbeing and independence.
             </p>
           </div>
           

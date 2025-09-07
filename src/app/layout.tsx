@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import dynamic from "next/dynamic";
-import { reportWebVitals } from "@/hooks/usePerformance";
 
 // Dynamic imports for better performance
 const Header = dynamic(() => import("@/components/Header"), {

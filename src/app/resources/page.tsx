@@ -2,9 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import dynamic from "next/dynamic";
 
 // Dynamic import for BlogModal to reduce initial bundle size
@@ -12,18 +11,12 @@ const BlogModal = dynamic(() => import("@/components/BlogModal"), {
   ssr: false,
 });
 import { 
-  BookOpen,
-  FileText,
   ExternalLink,
   Download,
   ArrowRight,
   CheckCircle,
-  Phone,
-  Mail,
   Users,
-  Calendar,
   HelpCircle,
-  Info,
   Lightbulb,
   Target,
   Globe,
@@ -35,7 +28,7 @@ export default function Resources() {
   const [selectedBlog, setSelectedBlog] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleBlogClick = (blog: any) => {
+  const handleBlogClick = (blog: unknown) => {
     setSelectedBlog(blog);
     setIsModalOpen(true);
   };
@@ -558,7 +551,7 @@ At Dhidib Foundation, we're committed to applying these lessons to all our commu
                 </div>
                 <h3 className="text-lg font-heading font-semibold text-gray-900 mb-3">Explore Your Interests</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Discover what you're passionate about and how you want to make a difference in your community.
+                  Discover what you&apos;re passionate about and how you want to make a difference in your community.
                 </p>
               </CardContent>
             </Card>
@@ -826,7 +819,7 @@ At Dhidib Foundation, we're committed to applying these lessons to all our commu
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
               Join our community of changemakers. Whether you want to participate in programs, volunteer, 
-              or support our mission, we're here to help you get started.
+                or support our mission, we&apos;re here to help you get started.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-6">

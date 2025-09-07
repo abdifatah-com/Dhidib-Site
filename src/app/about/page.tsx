@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "About Us - Our Mission & Team | Dhidib Foundation",
   description: "Learn about Dhidib Foundation's mission to empower youth and build communities. Meet our dedicated team and discover our values of inclusivity, empowerment, innovation, and collaboration.",
 };
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { 
   Heart, 
   Users, 
@@ -15,8 +15,6 @@ import {
   CheckCircle,
   ArrowRight,
   Star,
-  Phone,
-  Mail,
   Globe,
   Zap,
   Lightbulb,
@@ -336,7 +334,7 @@ export default function About() {
               Our Impact
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Numbers that reflect our commitment to youth empowerment and the positive impact we've made in our communities.
+              Numbers that reflect our commitment to youth empowerment and the positive impact we&apos;ve made in our communities.
             </p>
           </div>
           
@@ -363,7 +361,7 @@ export default function About() {
                 Why Choose Dhidib Foundation?
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                We're more than just a youth organization – we're your partners in creating positive change and building stronger communities.
+                We&apos;re more than just a youth organization – we&apos;re your partners in creating positive change and building stronger communities.
               </p>
               
               <div className="space-y-4">
@@ -406,7 +404,7 @@ export default function About() {
                   </div>
                   <h3 className="text-2xl font-heading font-semibold text-gray-800">Building Tomorrow Together</h3>
                   <p className="text-gray-600 max-w-sm">
-                    We measure our success by the positive impact we create in young people's lives and communities.
+                    We measure our success by the positive impact we create in young people&apos;s lives and communities.
                   </p>
                 </div>
               </div>
@@ -423,7 +421,7 @@ export default function About() {
               Join Our Mission
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Be part of the change. Whether you're a young person looking to grow, a volunteer wanting to make a difference, 
+              Be part of the change. Whether you&apos;re a young person looking to grow, a volunteer wanting to make a difference, 
               or a partner ready to collaborate, we welcome you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
